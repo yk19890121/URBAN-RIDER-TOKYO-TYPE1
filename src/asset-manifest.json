@@ -1,0 +1,712 @@
+{
+  "top-bike-0": {
+    "source": "TOP/背景/bike_collection_1.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "top-bike-1": {
+    "source": "TOP/ブランドオブジェクト/bike_collection_46.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "top-bike-2": {
+    "source": "TOP/背景/bike_collection_54.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "top-gakusei-0": {
+    "source": "TOP/ブランドオブジェクト/gakusei_collection_15.png",
+    "width": 1232,
+    "height": 928
+  },
+  "top-gakusei-1": {
+    "source": "TOP/背景/gakusei_collection_11.png",
+    "width": 1232,
+    "height": 928
+  },
+  "top-gakusei-2": {
+    "source": "TOP/背景/gakusei_collection_28.png",
+    "width": 1232,
+    "height": 928
+  },
+  "top-animal-0": {
+    "source": "TOP/背景/ANIMAL_collection_20.png",
+    "width": 1400,
+    "height": 785
+  },
+  "top-animal-1": {
+    "source": "TOP/背景/ANIMAL_collection_14.png",
+    "width": 1400,
+    "height": 785
+  },
+  "top-animal-2": {
+    "source": "TOP/ブランドオブジェクト/ANIMAL_collection_8.png",
+    "width": 1400,
+    "height": 785
+  },
+  "top-army-0": {
+    "source": "TOP/ブランドオブジェクト/army_collection_6.png",
+    "width": 1400,
+    "height": 785
+  },
+  "top-army-1": {
+    "source": "TOP/背景/army_collection_5.png",
+    "width": 1400,
+    "height": 785
+  },
+  "top-army-2": {
+    "source": "TOP/背景/army_collection_8.png",
+    "width": 1400,
+    "height": 785
+  },
+  "top-dokuro-0": {
+    "source": "TOP/ブランドオブジェクト/dokuro_collection_13.png",
+    "width": 1232,
+    "height": 928
+  },
+  "top-dokuro-1": {
+    "source": "TOP/背景/dokuro_collection_6.png",
+    "width": 1232,
+    "height": 928
+  },
+  "top-dokuro-2": {
+    "source": "TOP/背景/dokuro_collection_4.png",
+    "width": 1232,
+    "height": 928
+  },
+  "top-brand-0": {
+    "source": "TOP/ブランドオブジェクト/URBAN RIDER TOKYO BRAND COLLECTION.png",
+    "width": 1349,
+    "height": 232
+  },
+  "bike-1": {
+    "source": "bike_collection/bike_collection_1.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-46": {
+    "source": "bike_collection/bike_collection_46.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-54": {
+    "source": "bike_collection/bike_collection_54.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-37": {
+    "source": "bike_collection/bike_collection_37.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-44": {
+    "source": "bike_collection/bike_collection_44.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "gakusei-4": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_4.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-7": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_7.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-27": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_27.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "gakusei-1": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_1.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-21": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_21.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "animal-1": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_1.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-20": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_20.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-12": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_12.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-9": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_9.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-7": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_7.png",
+    "width": 1400,
+    "height": 785
+  },
+  "army-4": {
+    "source": "army_collection/army_collection_4.png",
+    "width": 1400,
+    "height": 785
+  },
+  "army-6": {
+    "source": "army_collection/army_collection_6.png",
+    "width": 1400,
+    "height": 785
+  },
+  "army-8": {
+    "source": "army_collection/army_collection_8.png",
+    "width": 1400,
+    "height": 785
+  },
+  "army-1": {
+    "source": "army_collection/army_collection_1.png",
+    "width": 1400,
+    "height": 785
+  },
+  "army-5": {
+    "source": "army_collection/army_collection_5.png",
+    "width": 1400,
+    "height": 785
+  },
+  "dokuro-1": {
+    "source": "dokuro_collection/dokuro_collection_1.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-2": {
+    "source": "dokuro_collection/dokuro_collection_2.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-6": {
+    "source": "dokuro_collection/dokuro_collection_6.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-8": {
+    "source": "dokuro_collection/dokuro_collection_8.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-12": {
+    "source": "dokuro_collection/dokuro_collection_12.png",
+    "width": 1232,
+    "height": 928
+  },
+  "brand-black": {
+    "source": "URBAN RIDER TOKYO BRAND COLLECTION/URBAN RIDER TOKYO ロゴ 黒.png",
+    "width": 1349,
+    "height": 232
+  },
+  "brand-white": {
+    "source": "URBAN RIDER TOKYO BRAND COLLECTION/URBAN RIDER TOKYO ロゴ 白 .png",
+    "width": 1349,
+    "height": 232
+  },
+  "product-001": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_132_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-002": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_130_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-003": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_129_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-004": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_128_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-005": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_131_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-006": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_107_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-007": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_106_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-008": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_108_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-009": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_109_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-010": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_110_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-011": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_111_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-012": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_116_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-013": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_117_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-014": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_118_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-015": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_122_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-016": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_121_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-017": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_124_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-018": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_125_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-019": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_126_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-020": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_127_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-021": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_004_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-022": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_005_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-023": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_007_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-024": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_006_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-025": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_008_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-026": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_010_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-027": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_018_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-028": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_011_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-029": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_019_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-030": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_020_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-031": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_014_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-032": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_015_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-033": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_016_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-034": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_017_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-035": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_030_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-036": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_031_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-037": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_021_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-038": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_023_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-039": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_024_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-040": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_025_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-041": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_027_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-042": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_028_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-043": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_029_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-044": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_026_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-045": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_066_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-046": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_065_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-047": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_070_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-048": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_069_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-049": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_064_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-050": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_072_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-051": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_073_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-052": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_071_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-053": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_081_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-054": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_082_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-055": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_083_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-056": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_084_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-057": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_085_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-058": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_086_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-059": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_087_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-060": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_088_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-061": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_089_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-062": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_090_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-063": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_091_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-064": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_092_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-065": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_093_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-066": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_094_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-067": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_095_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-068": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_096_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-069": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_097_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-070": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_098_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-071": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_033_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-072": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_034_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-073": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_035_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-074": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_039_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-075": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_041_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-076": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_044_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-077": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_046_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-078": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_047_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-079": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_048_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-080": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_050_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-081": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_051_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-082": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_054_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-083": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_052_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-084": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_053_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-085": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_056_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-086": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_058_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-087": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_059_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-088": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_060_白.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-089": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_黒_ロンT.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-090": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_白_ロンT.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-091": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_黒_ハット.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-092": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_白_ハット.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-093": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_紺_キャップ.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-094": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_ベージュ_キャップ.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-095": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_黒_Tシャツ.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-096": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_白_Tシャツ.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-097": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_dokuro_ロンT.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-098": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_dokuro_コーチJKT.png",
+    "width": 1000,
+    "height": 1000
+  },
+  "product-099": {
+    "source": "Tシャツ素材/URBAN RIDER TOKYO_dokuro_スウェット.png",
+    "width": 1000,
+    "height": 1000
+  }
+}

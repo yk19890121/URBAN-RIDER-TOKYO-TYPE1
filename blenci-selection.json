@@ -1,0 +1,18 @@
+{
+  "catalogCommit": "5934e9e40bcea73cc4a77195346c07a112f6f127",
+  "layout": [{"id":"L03","target":"TOP editorial collection index and asymmetric galleries"},{"id":"L28","target":"Brand hero: oversized headline and 60% image"}],
+  "gimmicks": [
+    {"id":"C02","target":"Collection image expands into brand page; gallery image expands into lightbox"},
+    {"id":"B04","target":"TOP collection images and brand hero crossfade, pausable"},
+    {"id":"I02","target":"SVG line drawing under collection names"},
+    {"id":"I09","target":"Product images revealed with a torn-paper edge"},
+    {"id":"G05","target":"Product and gallery lightbox"},
+    {"id":"G10","target":"Fine-pointer proximity lift and product image enlargement"},
+    {"id":"C09","target":"Subtle jelly wobble on purchase buttons"},
+    {"id":"U08","target":"Cursor changes shape over image and link targets"},
+    {"id":"U09","target":"Short subtle ink trail on fine pointers"},
+    {"id":"U13","target":"Click shockwave"},
+    {"id":"N07","target":"Circular reveal fullscreen collection navigation"}
+  ],
+  "fonts": [{"id":"F22","target":"Anton: rail and hero display type"},{"id":"F21","target":"Bebas Neue: collection names and editorial metadata"}]
+}

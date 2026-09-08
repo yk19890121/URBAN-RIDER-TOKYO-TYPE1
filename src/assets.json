@@ -1,0 +1,81 @@
+{
+  "bike": {
+    "top": [
+      "images/top-bike-0.webp",
+      "images/top-bike-1.webp",
+      "images/top-bike-2.webp"
+    ],
+    "art": [
+      "images/bike-1.webp",
+      "images/bike-46.webp",
+      "images/bike-54.webp",
+      "images/bike-37.webp",
+      "images/bike-44.webp"
+    ]
+  },
+  "gakusei": {
+    "top": [
+      "images/top-gakusei-0.webp",
+      "images/top-gakusei-1.webp",
+      "images/top-gakusei-2.webp"
+    ],
+    "art": [
+      "images/gakusei-4.webp",
+      "images/gakusei-7.webp",
+      "images/gakusei-27.webp",
+      "images/gakusei-1.webp",
+      "images/gakusei-21.webp"
+    ]
+  },
+  "animal": {
+    "top": [
+      "images/top-animal-0.webp",
+      "images/top-animal-1.webp",
+      "images/top-animal-2.webp"
+    ],
+    "art": [
+      "images/animal-1.webp",
+      "images/animal-20.webp",
+      "images/animal-12.webp",
+      "images/animal-9.webp",
+      "images/animal-7.webp"
+    ]
+  },
+  "army": {
+    "top": [
+      "images/top-army-0.webp",
+      "images/top-army-1.webp",
+      "images/top-army-2.webp"
+    ],
+    "art": [
+      "images/army-4.webp",
+      "images/army-6.webp",
+      "images/army-8.webp",
+      "images/army-1.webp",
+      "images/army-5.webp"
+    ]
+  },
+  "dokuro": {
+    "top": [
+      "images/top-dokuro-0.webp",
+      "images/top-dokuro-1.webp",
+      "images/top-dokuro-2.webp"
+    ],
+    "art": [
+      "images/dokuro-1.webp",
+      "images/dokuro-2.webp",
+      "images/dokuro-6.webp",
+      "images/dokuro-8.webp",
+      "images/dokuro-12.webp"
+    ]
+  },
+  "brand": {
+    "top": [
+      "images/top-brand-0.webp"
+    ],
+    "art": [
+      "images/brand-black.webp",
+      "images/brand-white.webp"
+    ]
+  }
+}
