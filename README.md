@@ -33,8 +33,11 @@ npm run check
 
 - `src/collections.mjs`：コンセプト、見出し、コピー
 - `src/products.json`：Excelから抽出した商品名・税込価格・SUZURI購入URL
-- `src/assets.json`：ページごとの画像選択
+- `src/assets.json`：ページごとの画像選択（`top` / `hero` / `gallery`）
 - `src/asset-manifest.json`：配信画像と元ファイルの対応
+- `scripts/remap_assets.py`：`.source/` の元PNGから画像を選び直してWebP化し、`assets.json`・`asset-manifest.json` を再生成（`PICKS` を編集）
+- `scripts/image_usage.mjs`：`docs/image-usage.md`（画像使用マップ）を生成
+- `scripts/make_picker.py`：`output/image-picker.html`（画像選定用の一覧）を生成
 - `scripts/build.mjs`：7ページのHTML生成
 - `public/styles.css`：レイアウト、タイポグラフィ、レスポンシブ
 - `public/app.js`：メニュー、画像切替、画像拡大、商品追加表示、カーソル演出
@@ -52,18 +55,31 @@ ARMY・DOKUROは実在する商品のみ掲載しており、6点に増やすた
 
 ## 画像と演出
 
-TOPではTOPフォルダ由来の画像、ブランドのヒーロー・ギャラリーではそれぞれのブランドフォルダ由来の画像のみを使用しています。商品画像はTシャツ素材フォルダ由来です。ブラウザ用WebPと640px版を生成し、元素材は配信しません。
+各コレクションはブランドフォルダ由来の画像を使用します（TOPカード・ヒーロー・ギャラリー）。商品画像はTシャツ素材フォルダ由来です。ブラウザ用WebPと640px版を生成し、元素材は配信しません。どの画像をどこで使っているかは `docs/image-usage.md`（`node scripts/image_usage.mjs` で再生成）。差し替えは `scripts/remap_assets.py` の `PICKS` を編集して実行します。
 
-BRANDの画像素材はロゴ2点のため、タイポグラフィと白・ネイビーの面で構成。架空の写真や商品画像は追加していません。SNSアカウントやJOURNALの情報は未提供のため、架空のリンクを置かず、確認できるSUZURIストアへの導線を用意しています。
+- TOPカード：各3〜4枚が B04 でクロスフェード。
+- ヒーロー：各2〜4枚がクロスフェード。
+- ギャラリー：横スクロールの帯。画像はトリミングせず（`object-fit:contain`・高さ固定）、ホバーで拡大、クリックでライトボックス。各5〜10枚。ページ全体は横スクロールしません（帯の内側だけがスクロール）。
 
-BLENCI: L03・L28、F21・F22、B04・C02・I02・I09・G05・G10・C09・U08・U09・U13・N07。I02はコレクション名の下のSVG罫線描画に適用。N07は円形に開く全画面メニュー、C02は画像の元位置からの拡大です。購入ボタンのC09は控えめな揺れに調整しています。
+BRANDの画像素材はロゴ2点のため、タイポグラフィと白・ネイビーの面で構成。ギャラリーは置かず、架空の写真や商品画像も追加していません。SNSアカウントやJOURNALの情報は未提供のため、架空のリンクを置かず、確認できるSUZURIストアへの導線を用意しています。
+
+BLENCI: L03・L28、F21・F22、B04・C02・I02・I09・G05・G10・C09・U08・U09・U13・N07。I02はコレクション名の下のSVG罫線描画に適用。N07は円形に開く全画面メニュー、C02は画像の元位置からの拡大です。購入ボタンのC09は控えめな揺れに調整しています。改修履歴は `blenci-selection.json` の `revisions`。
 
 動きを減らすOS設定を尊重します。細かいポインターが使えない端末ではカーソル演出・近接パララックスを停止し、タップで画像を拡大できます。画像自動切替は一時停止でき、別タブ表示中・モーダル表示中は進みません。
 
 フォントはAntonとBebas Neueを自己配信しています。SIL Open Font Licenseを`public/fonts/`に同梱しています。
 
-## 素材の再抽出
+## 素材の再抽出・差し替え
 
-通常の起動・ビルドに元ZIPやPythonは不要です。素材を更新する場合のみ、Pillowが利用可能なPythonで`scripts/inspect_assets.py`と`scripts/prepare_assets.py`を実行します。`inspect_assets.py`のZIPパスを環境に合わせて指定してください。元素材・検証用画像は`.source/`・`output/`に保存され、Gitから除外されます。
+通常の起動・ビルドに元ZIPやPythonは不要です（`src/*.json` と `public/images/` だけで完結）。
+
+画像を差し替える場合のみ、Pillowが使えるPythonで作業します。元素材は `.source/URBAN RIDER TOKYO/…` に置きます（ZIP展開。`.source/`・`output/` はGit管理外）。
+
+1. `scripts/remap_assets.py` の `PICKS`（コレクションごとの `top` / `hero` / `gallery` の番号）を編集
+2. `python scripts/remap_assets.py` … WebP生成、`src/assets.json`・`src/asset-manifest.json` 更新、未使用画像の削除
+3. `npm run build` でHTML再生成、`npm run check` で検証
+4. `node scripts/image_usage.mjs` で `docs/image-usage.md` を更新
+
+`scripts/inspect_assets.py` は初回の一括抽出用（ZIP→`.source/`、Excel→`.source/workbook.json`、`output/` にコンタクトシート）。旧 `scripts/prepare_assets.py` は初期構築時の全自動版で、いま実行すると `remap_assets.py` の選択を上書きするので通常は使いません。`scripts/make_picker.py` で選定用の一覧 `output/image-picker.html` を作れます。
 
 GitHubへのpush・サイト公開は、このローカル制作には含めていません。

@@ -1,219 +1,4 @@
 {
-  "top-bike-0": {
-    "source": "TOP/背景/bike_collection_1.png",
-    "width": 1024,
-    "height": 1024
-  },
-  "top-bike-1": {
-    "source": "TOP/ブランドオブジェクト/bike_collection_46.png",
-    "width": 1024,
-    "height": 1024
-  },
-  "top-bike-2": {
-    "source": "TOP/背景/bike_collection_54.png",
-    "width": 1024,
-    "height": 1024
-  },
-  "top-gakusei-0": {
-    "source": "TOP/ブランドオブジェクト/gakusei_collection_15.png",
-    "width": 1232,
-    "height": 928
-  },
-  "top-gakusei-1": {
-    "source": "TOP/背景/gakusei_collection_11.png",
-    "width": 1232,
-    "height": 928
-  },
-  "top-gakusei-2": {
-    "source": "TOP/背景/gakusei_collection_28.png",
-    "width": 1232,
-    "height": 928
-  },
-  "top-animal-0": {
-    "source": "TOP/背景/ANIMAL_collection_20.png",
-    "width": 1400,
-    "height": 785
-  },
-  "top-animal-1": {
-    "source": "TOP/背景/ANIMAL_collection_14.png",
-    "width": 1400,
-    "height": 785
-  },
-  "top-animal-2": {
-    "source": "TOP/ブランドオブジェクト/ANIMAL_collection_8.png",
-    "width": 1400,
-    "height": 785
-  },
-  "top-army-0": {
-    "source": "TOP/ブランドオブジェクト/army_collection_6.png",
-    "width": 1400,
-    "height": 785
-  },
-  "top-army-1": {
-    "source": "TOP/背景/army_collection_5.png",
-    "width": 1400,
-    "height": 785
-  },
-  "top-army-2": {
-    "source": "TOP/背景/army_collection_8.png",
-    "width": 1400,
-    "height": 785
-  },
-  "top-dokuro-0": {
-    "source": "TOP/ブランドオブジェクト/dokuro_collection_13.png",
-    "width": 1232,
-    "height": 928
-  },
-  "top-dokuro-1": {
-    "source": "TOP/背景/dokuro_collection_6.png",
-    "width": 1232,
-    "height": 928
-  },
-  "top-dokuro-2": {
-    "source": "TOP/背景/dokuro_collection_4.png",
-    "width": 1232,
-    "height": 928
-  },
-  "top-brand-0": {
-    "source": "TOP/ブランドオブジェクト/URBAN RIDER TOKYO BRAND COLLECTION.png",
-    "width": 1349,
-    "height": 232
-  },
-  "bike-1": {
-    "source": "bike_collection/bike_collection_1.png",
-    "width": 1024,
-    "height": 1024
-  },
-  "bike-46": {
-    "source": "bike_collection/bike_collection_46.png",
-    "width": 1024,
-    "height": 1024
-  },
-  "bike-54": {
-    "source": "bike_collection/bike_collection_54.png",
-    "width": 1024,
-    "height": 1024
-  },
-  "bike-37": {
-    "source": "bike_collection/bike_collection_37.png",
-    "width": 1024,
-    "height": 1024
-  },
-  "bike-44": {
-    "source": "bike_collection/bike_collection_44.png",
-    "width": 1024,
-    "height": 1024
-  },
-  "gakusei-4": {
-    "source": "GAKUSEI COLLECTION/gakusei_collection_4.png",
-    "width": 1232,
-    "height": 928
-  },
-  "gakusei-7": {
-    "source": "GAKUSEI COLLECTION/gakusei_collection_7.png",
-    "width": 1232,
-    "height": 928
-  },
-  "gakusei-27": {
-    "source": "GAKUSEI COLLECTION/gakusei_collection_27.png",
-    "width": 1024,
-    "height": 1024
-  },
-  "gakusei-1": {
-    "source": "GAKUSEI COLLECTION/gakusei_collection_1.png",
-    "width": 1232,
-    "height": 928
-  },
-  "gakusei-21": {
-    "source": "GAKUSEI COLLECTION/gakusei_collection_21.png",
-    "width": 1024,
-    "height": 1024
-  },
-  "animal-1": {
-    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_1.png",
-    "width": 1400,
-    "height": 785
-  },
-  "animal-20": {
-    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_20.png",
-    "width": 1400,
-    "height": 785
-  },
-  "animal-12": {
-    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_12.png",
-    "width": 1400,
-    "height": 785
-  },
-  "animal-9": {
-    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_9.png",
-    "width": 1400,
-    "height": 785
-  },
-  "animal-7": {
-    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_7.png",
-    "width": 1400,
-    "height": 785
-  },
-  "army-4": {
-    "source": "army_collection/army_collection_4.png",
-    "width": 1400,
-    "height": 785
-  },
-  "army-6": {
-    "source": "army_collection/army_collection_6.png",
-    "width": 1400,
-    "height": 785
-  },
-  "army-8": {
-    "source": "army_collection/army_collection_8.png",
-    "width": 1400,
-    "height": 785
-  },
-  "army-1": {
-    "source": "army_collection/army_collection_1.png",
-    "width": 1400,
-    "height": 785
-  },
-  "army-5": {
-    "source": "army_collection/army_collection_5.png",
-    "width": 1400,
-    "height": 785
-  },
-  "dokuro-1": {
-    "source": "dokuro_collection/dokuro_collection_1.png",
-    "width": 1232,
-    "height": 928
-  },
-  "dokuro-2": {
-    "source": "dokuro_collection/dokuro_collection_2.png",
-    "width": 1232,
-    "height": 928
-  },
-  "dokuro-6": {
-    "source": "dokuro_collection/dokuro_collection_6.png",
-    "width": 1232,
-    "height": 928
-  },
-  "dokuro-8": {
-    "source": "dokuro_collection/dokuro_collection_8.png",
-    "width": 1232,
-    "height": 928
-  },
-  "dokuro-12": {
-    "source": "dokuro_collection/dokuro_collection_12.png",
-    "width": 1232,
-    "height": 928
-  },
-  "brand-black": {
-    "source": "URBAN RIDER TOKYO BRAND COLLECTION/URBAN RIDER TOKYO ロゴ 黒.png",
-    "width": 1349,
-    "height": 232
-  },
-  "brand-white": {
-    "source": "URBAN RIDER TOKYO BRAND COLLECTION/URBAN RIDER TOKYO ロゴ 白 .png",
-    "width": 1349,
-    "height": 232
-  },
   "product-001": {
     "source": "Tシャツ素材/URBAN RIDER TOKYO_132_白.png",
     "width": 1000,
@@ -708,5 +493,350 @@
     "source": "Tシャツ素材/URBAN RIDER TOKYO_dokuro_スウェット.png",
     "width": 1000,
     "height": 1000
+  },
+  "bike-46": {
+    "source": "bike_collection/bike_collection_46.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-54": {
+    "source": "bike_collection/bike_collection_54.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-69": {
+    "source": "bike_collection/bike_collection_69.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-43": {
+    "source": "bike_collection/bike_collection_43.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-1": {
+    "source": "bike_collection/bike_collection_1.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-7": {
+    "source": "bike_collection/bike_collection_7.png",
+    "width": 1400,
+    "height": 785
+  },
+  "bike-9": {
+    "source": "bike_collection/bike_collection_9.png",
+    "width": 1400,
+    "height": 785
+  },
+  "bike-4": {
+    "source": "bike_collection/bike_collection_4.png",
+    "width": 1400,
+    "height": 785
+  },
+  "bike-13": {
+    "source": "bike_collection/bike_collection_13.png",
+    "width": 1232,
+    "height": 928
+  },
+  "bike-42": {
+    "source": "bike_collection/bike_collection_42.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-58": {
+    "source": "bike_collection/bike_collection_58.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-67": {
+    "source": "bike_collection/bike_collection_67.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-68": {
+    "source": "bike_collection/bike_collection_68.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-40": {
+    "source": "bike_collection/bike_collection_40.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-35": {
+    "source": "bike_collection/bike_collection_35.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "bike-34": {
+    "source": "bike_collection/bike_collection_34.png",
+    "width": 1232,
+    "height": 928
+  },
+  "bike-5": {
+    "source": "bike_collection/bike_collection_5.png",
+    "width": 1400,
+    "height": 785
+  },
+  "gakusei-8": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_8.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-23": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_23.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "gakusei-20": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_20.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "gakusei-5": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_5.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-4": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_4.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-14": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_14.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-19": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_19.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "gakusei-1": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_1.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-6": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_6.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-28": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_28.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-24": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_24.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "gakusei-11": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_11.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-17": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_17.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-16": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_16.png",
+    "width": 1232,
+    "height": 928
+  },
+  "gakusei-22": {
+    "source": "GAKUSEI COLLECTION/gakusei_collection_22.png",
+    "width": 1024,
+    "height": 1024
+  },
+  "animal-2": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_2.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-16": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_16.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-11": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_11.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-8": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_8.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-6": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_6.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-14": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_14.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-19": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_19.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-1": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_1.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-4": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_4.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-5": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_5.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-7": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_7.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-13": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_13.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-20": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_20.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-18": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_18.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-17": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_17.png",
+    "width": 1400,
+    "height": 785
+  },
+  "animal-15": {
+    "source": "ANIMAL DESIGN COLLECTION/ANIMAL_collection_15.png",
+    "width": 1400,
+    "height": 785
+  },
+  "army-3": {
+    "source": "army_collection/army_collection_3.png",
+    "width": 1400,
+    "height": 785
+  },
+  "army-2": {
+    "source": "army_collection/army_collection_2.png",
+    "width": 1400,
+    "height": 785
+  },
+  "army-6": {
+    "source": "army_collection/army_collection_6.png",
+    "width": 1400,
+    "height": 785
+  },
+  "army-4": {
+    "source": "army_collection/army_collection_4.png",
+    "width": 1400,
+    "height": 785
+  },
+  "army-8": {
+    "source": "army_collection/army_collection_8.png",
+    "width": 1400,
+    "height": 785
+  },
+  "army-5": {
+    "source": "army_collection/army_collection_5.png",
+    "width": 1400,
+    "height": 785
+  },
+  "army-7": {
+    "source": "army_collection/army_collection_7.png",
+    "width": 1400,
+    "height": 785
+  },
+  "dokuro-4": {
+    "source": "dokuro_collection/dokuro_collection_4.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-7": {
+    "source": "dokuro_collection/dokuro_collection_7.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-10": {
+    "source": "dokuro_collection/dokuro_collection_10.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-2": {
+    "source": "dokuro_collection/dokuro_collection_2.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-8": {
+    "source": "dokuro_collection/dokuro_collection_8.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-3": {
+    "source": "dokuro_collection/dokuro_collection_3.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-11": {
+    "source": "dokuro_collection/dokuro_collection_11.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-12": {
+    "source": "dokuro_collection/dokuro_collection_12.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-13": {
+    "source": "dokuro_collection/dokuro_collection_13.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-9": {
+    "source": "dokuro_collection/dokuro_collection_9.png",
+    "width": 1232,
+    "height": 928
+  },
+  "dokuro-5": {
+    "source": "dokuro_collection/dokuro_collection_5.png",
+    "width": 1232,
+    "height": 928
+  },
+  "top-brand-0": {
+    "source": "TOP/ブランドオブジェクト/URBAN RIDER TOKYO BRAND COLLECTION.png",
+    "width": 1349,
+    "height": 232
+  },
+  "brand-black": {
+    "source": "URBAN RIDER TOKYO BRAND COLLECTION/URBAN RIDER TOKYO ロゴ 黒.png",
+    "width": 1349,
+    "height": 232
+  },
+  "brand-white": {
+    "source": "URBAN RIDER TOKYO BRAND COLLECTION/URBAN RIDER TOKYO ロゴ 白 .png",
+    "width": 1349,
+    "height": 232
   }
 }

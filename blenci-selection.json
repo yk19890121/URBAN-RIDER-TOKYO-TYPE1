@@ -3,16 +3,19 @@
   "layout": [{"id":"L03","target":"TOP editorial collection index and asymmetric galleries"},{"id":"L28","target":"Brand hero: oversized headline and 60% image"}],
   "gimmicks": [
     {"id":"C02","target":"Collection image expands into brand page; gallery image expands into lightbox"},
-    {"id":"B04","target":"TOP collection images and brand hero crossfade, pausable"},
+    {"id":"B04","target":"TOP collection cards (3-4 images) and brand hero (2-4 images) crossfade, pausable"},
     {"id":"I02","target":"SVG line drawing under collection names"},
     {"id":"I09","target":"Product images revealed with a torn-paper edge"},
     {"id":"G05","target":"Product and gallery lightbox"},
-    {"id":"G10","target":"Fine-pointer proximity lift and product image enlargement"},
+    {"id":"G10","target":"Fine-pointer proximity lift on products; hover enlarges gallery images in the horizontal-scroll strip"},
     {"id":"C09","target":"Subtle jelly wobble on purchase buttons"},
     {"id":"U08","target":"Cursor changes shape over image and link targets"},
     {"id":"U09","target":"Short subtle ink trail on fine pointers"},
     {"id":"U13","target":"Click shockwave"},
     {"id":"N07","target":"Circular reveal fullscreen collection navigation"}
   ],
-  "fonts": [{"id":"F22","target":"Anton: rail and hero display type"},{"id":"F21","target":"Bebas Neue: collection names and editorial metadata"}]
+  "fonts": [{"id":"F22","target":"Anton: rail and hero display type"},{"id":"F21","target":"Bebas Neue: collection names and editorial metadata"}],
+  "revisions": [
+    {"date":"2026-09-09","summary":"Image re-selection per client picks (TOP cards, brand heroes, galleries). Brand-page gallery rebuilt as a horizontal-scroll strip: non-cropped images (object-fit:contain, fixed height), hover-enlarge, its own overflow-x scroll. BRAND page has no gallery. Current assignments: docs/image-usage.md."}
+  ]
 }
