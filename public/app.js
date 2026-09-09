@@ -143,32 +143,29 @@ lightbox.addEventListener('click', event => {
   if (event.target === lightbox || event.target.classList.contains('lightbox-content')) closeLightbox();
 });
 
-// C02: collection selection expands the image before normal, bookmarkable navigation.
+// N07: TOP → brand navigation is a circular reveal from the click point. Bookmarkable.
 let navigating = false;
-$$('[data-expand]').forEach(link => link.addEventListener('click', async event => {
-  if (reduceMotion.matches || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
-  if (navigating) { event.preventDefault(); return; }
-  event.preventDefault();
-  navigating = true;
-  const source = $('.slide.is-active', link);
-  const frame = document.createElement('div');
-  Object.assign(frame.style, { position: 'fixed', left: '38%', top: '8%', width: '58%', height: '84%', pointerEvents: 'none' });
-  document.body.append(frame);
-  try { await expandImage(source, frame); }
-  finally { frame.remove(); location.assign(link.href); }
-}));
 addEventListener('pageshow', () => { navigating = false; });
-$('.brand-band')?.addEventListener('click', async event => {
+document.documentElement.addEventListener('animationend', event => {
+  if (event.animationName === 'veil-open') document.documentElement.classList.remove('wipe-enter');
+});
+$$('[data-nav-reveal]').forEach(link => link.addEventListener('click', event => {
   if (reduceMotion.matches || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
   event.preventDefault();
   if (navigating) return;
   navigating = true;
-  const link = event.currentTarget;
-  const art = $('.brand-band-type', link);
-  try {
-    await art.animate([{ transform: 'skewY(-6deg) scale(.92)', opacity: 1 }, { transform: 'skewY(0deg) scale(1.12)', opacity: .2 }], { duration: 350, easing: 'ease-in', fill: 'forwards' }).finished;
-  } finally { location.assign(link.href); }
-});
+  const x = event.clientX || innerWidth / 2;
+  const y = event.clientY || innerHeight / 2;
+  try { sessionStorage.setItem('urt:wipe', JSON.stringify({ x, y, t: Date.now() })); } catch { /* private mode */ }
+  const veil = document.createElement('div');
+  veil.className = 'page-veil';
+  document.body.append(veil);
+  const radius = Math.ceil(Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y)));
+  veil.animate(
+    [{ clipPath: `circle(0px at ${x}px ${y}px)` }, { clipPath: `circle(${radius}px at ${x}px ${y}px)` }],
+    { duration: 500, easing: 'cubic-bezier(.7,0,.2,1)', fill: 'forwards' },
+  ).finished.finally(() => location.assign(link.href));
+}));
 
 // Keep the first editorial group compact. All products exist in the server-rendered HTML.
 const productCards = $$('.product-card');
