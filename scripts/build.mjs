@@ -10,7 +10,11 @@ const arrow = '<svg class="arrow" viewBox="0 0 44 28" fill="none" aria-hidden="t
 const line = '<svg class="draw-line" viewBox="0 0 300 3" preserveAspectRatio="none" aria-hidden="true"><path d="M0 1.5H300" fill="none" stroke="currentColor" stroke-width="1" pathLength="1"/></svg>';
 const price = p => `¥${p.toLocaleString('ja-JP')}`;
 const href = (prefix,slug) => `${prefix}collections/${slug}/`;
+const lookbookNote = '※掲載している着用イメージは、商品画像をもとに制作したイメージビジュアルです。実際の商品を着用して撮影したものではないため、色味・質感・サイズ感などが実物と異なる場合があります。';
 const image = (src,prefix,alt,extra='') => `<img src="${prefix}${src}" srcset="${prefix}${src.replace('.webp','-640.webp')} 640w, ${prefix}${src} 1400w" sizes="(max-width: 600px) 50vw, 60vw" alt="${esc(alt)}" decoding="async" ${extra}>`;
+function renderLookbook(files,prefix,c){
+  return `<section class="lookbook-section" aria-labelledby="lookbook-title"><div class="lookbook-heading"><span class="index">03</span><div><span class="eyebrow">LOOK BOOK</span><h2 id="lookbook-title">着用イメージ</h2></div><span class="micro">05 VISUALS / 横スクロール</span></div><div class="lookbook-track" tabindex="0" role="group" aria-label="${esc(c.name)}の着用イメージ（横スクロール）">${files.map((src,i)=>`<button class="lookbook-item" type="button" data-lightbox="${prefix}${src}" data-caption="${esc(c.short)} LOOK BOOK ${String(i+1).padStart(2,'0')}" data-cursor="VIEW" aria-label="着用イメージ${i+1}を拡大表示"><picture><source media="(max-width:600px)" srcset="${prefix}${src.replace('.webp','-640.webp')}"><img src="${prefix}${src}" alt="${esc(c.name)} 着用イメージ ${i+1}" width="941" height="1672" loading="lazy" decoding="async"></picture><span>${String(i+1).padStart(2,'0')}</span></button>`).join('')}</div><p class="lookbook-note">${lookbookNote}</p></section>`;
+}
 function slides(files,prefix,alt,priority=false){
   return `<div class="slideshow" data-slides="${esc(JSON.stringify(files.map(f=>prefix+f)))}">${image(files[0],prefix,alt,`class="slide is-active" ${priority?'fetchpriority="high"':'loading="lazy"'}`)}<img class="slide slide-next" alt="" aria-hidden="true" decoding="async"></div>`;
 }
@@ -58,7 +62,8 @@ await fs.writeFile(path.join(root,'dist/index.html'),home());
 for(const c of collections){
   const folder=path.join(root,'dist/collections',c.slug);
   await fs.mkdir(folder,{recursive:true});
-  await fs.writeFile(path.join(folder,'index.html'),brand(c));
+  const html=brand(c).replace('<section class="next-collection">',`${renderLookbook(assets.lookbook[c.slug],'../../',c)}<section class="next-collection">`);
+  await fs.writeFile(path.join(folder,'index.html'),html);
 }
 await fs.writeFile(path.join(root,'dist/404.html'),'<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ページが見つかりません | URBAN RIDER TOKYO</title><body style="font-family:sans-serif;padding:10vw;color:#071e39"><h1>PAGE NOT FOUND</h1><p>お探しのページは見つかりませんでした。</p><a href="javascript:history.back()">前のページへ戻る</a></body></html>');
 console.log(`Built 7 pages / ${products.length} products. Output: dist/`);

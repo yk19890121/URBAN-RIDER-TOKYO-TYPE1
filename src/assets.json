@@ -120,5 +120,13 @@
       "images/brand-black.webp"
     ],
     "gallery": []
+  },
+  "lookbook": {
+    "bike": ["images/lookbook-bike-1.webp", "images/lookbook-bike-2.webp", "images/lookbook-bike-3.webp", "images/lookbook-bike-4.webp", "images/lookbook-bike-5.webp"],
+    "animal": ["images/lookbook-animal-1.webp", "images/lookbook-animal-2.webp", "images/lookbook-animal-3.webp", "images/lookbook-animal-4.webp", "images/lookbook-animal-5.webp"],
+    "gakusei": ["images/lookbook-gakusei-1.webp", "images/lookbook-gakusei-2.webp", "images/lookbook-gakusei-3.webp", "images/lookbook-gakusei-4.webp", "images/lookbook-gakusei-5.webp"],
+    "army": ["images/lookbook-army-1.webp", "images/lookbook-army-2.webp", "images/lookbook-army-3.webp", "images/lookbook-army-4.webp", "images/lookbook-army-5.webp"],
+    "dokuro": ["images/lookbook-dokuro-1.webp", "images/lookbook-dokuro-2.webp", "images/lookbook-dokuro-3.webp", "images/lookbook-dokuro-4.webp", "images/lookbook-dokuro-5.webp"],
+    "brand": ["images/lookbook-brand-1.webp", "images/lookbook-brand-2.webp", "images/lookbook-brand-3.webp", "images/lookbook-brand-4.webp", "images/lookbook-brand-5.webp"]
   }
 }
